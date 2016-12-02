@@ -1,0 +1,41 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="styl.css">
+	<script src="saperJs.js"></script>
+</head>
+
+<body onload="loadSaper()">
+	<div class='topClass' id="topDiv">
+		<p id='tittle'> Saper </p>
+	</div>
+	<div class='midClass' id="midDiv">
+		<table id='midTable' border='1'>
+			<tr>
+				<td>
+					TO DO:</br>
+					 -button's indexing problem</br>
+					 -Avoid rearrange saper's elements</br>
+					  in case of scaling</br>
+					 -Marking Bombs </br>
+					 -End game </br>
+					 Size(bigger than 7):
+					<input type="text" id="startSaperValue" value="7"/>
+					</br>
+					<input type="button" id="startSnakeBut" value ="Restart" onclick="loadSaper()"/>
+				</td>
+				<td>
+					<div id="here"></div>
+				</td>
+				<td>
+					<p>SCORE</p>
+					<p id="score"> 000 </p>
+					<p id="gameState"> </p>
+				</td>
+				<td>
+					<form action="index.html">
+						<input type="submit" value="return To Welcome Page">
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
